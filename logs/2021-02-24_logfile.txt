@@ -1,0 +1,83 @@
+2021-02-24 02:45:39.1887 INFO User available in database.
+2021-02-24 02:50:57.3151 INFO User available in database.
+2021-02-24 02:55:26.5770 INFO User available in database.
+2021-02-24 03:34:16.9070 INFO User available in database.
+2021-02-24 03:34:57.6350 INFO Returned all users from database.
+2021-02-24 03:37:58.5452 INFO User available in database.
+2021-02-24 03:39:48.2638 INFO User available in database.
+2021-02-24 04:14:31.5444 INFO User available in database.
+2021-02-24 04:34:33.9992 INFO User available in database.
+2021-02-24 04:51:30.3708 INFO Returned all vehicles from database.
+2021-02-24 04:56:17.0533 INFO Vehicle available in database.
+2021-02-24 04:57:14.5524 INFO Returned all vehicles from database.
+2021-02-24 04:59:40.8541 INFO Vehicle available in database.
+2021-02-24 05:00:03.1395 INFO Returned all vehicles from database.
+2021-02-24 05:02:43.0450 INFO Vehicle available in database.
+2021-02-24 05:03:22.3339 INFO Returned all vehicles from database.
+2021-02-24 05:03:40.9494 INFO User available in database.
+2021-02-24 05:09:45.4484 INFO Vehicle available in database.
+2021-02-24 05:12:45.7454 INFO Vehicle available in database.
+2021-02-24 05:18:18.5906 INFO Vehicle available in database.
+2021-02-24 05:19:53.9971 INFO Vehicle available in database.
+2021-02-24 05:21:56.1053 INFO User available in database.
+2021-02-24 05:28:31.4961 INFO Vehicle available in database.
+2021-02-24 05:29:01.1015 INFO Returned all vehicles from database.
+2021-02-24 05:29:36.3613 INFO Returned all users from database.
+2021-02-24 05:49:09.8401 ERROR Something went wrong inside RegisterVehicle method: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+VMVehicle -> Vehicle
+VehicleTracking.DTO.VMVehicle -> VehicleData.Models.Vehicle
+2021-02-24 05:51:52.5234 INFO Vehicle registered in database.
+2021-02-24 06:01:57.1049 INFO Vehicle registered in database.
+2021-02-24 06:24:34.0537 INFO User available in database.
+2021-02-24 06:24:58.6033 INFO Returned all vehicles by pagination from database.
+2021-02-24 06:25:09.9044 INFO Vehicles available in database.
+2021-02-24 06:26:53.9608 INFO User available in database.
+2021-02-24 06:26:59.5588 INFO Returned all vehicles by pagination from database.
+2021-02-24 06:26:59.6118 INFO Vehicles available in database.
+2021-02-24 07:26:09.3192 INFO Vehicle available in database.
+2021-02-24 07:27:33.9011 ERROR Something went wrong inside position action: An error occurred while updating the entries. See the inner exception for details.
+2021-02-24 07:30:12.3955 INFO Vehicle available in database.
+2021-02-24 07:31:49.8607 INFO Vehicle position saved in database.
+2021-02-24 07:37:59.0975 INFO User available in database.
+2021-02-24 07:38:03.7001 INFO Returned all vehicles by pagination from database.
+2021-02-24 07:38:03.7603 INFO Vehicles available in database.
+2021-02-24 07:39:51.0668 INFO User available in database.
+2021-02-24 07:39:55.5240 INFO Returned all vehicles by pagination from database.
+2021-02-24 07:39:55.5889 INFO Vehicles available in database.
+2021-02-24 07:41:55.9712 INFO Returned all vehicles by pagination from database.
+2021-02-24 07:41:55.9895 INFO Vehicles available in database.
+2021-02-24 07:55:01.0509 INFO User available in database.
+2021-02-24 07:55:05.4274 INFO Returned all vehicles by pagination from database.
+2021-02-24 07:55:05.4840 INFO Vehicles available in database.
+2021-02-24 08:01:36.7399 INFO User available in database.
+2021-02-24 08:01:40.7100 INFO Returned all vehicles by pagination from database.
+2021-02-24 08:01:40.7823 INFO Vehicles available in database.
+2021-02-24 08:04:51.3314 INFO User available in database.
+2021-02-24 08:04:54.9369 INFO Returned all vehicles by pagination from database.
+2021-02-24 08:04:54.9879 INFO Vehicles available in database.
+2021-02-24 08:06:53.4557 INFO User available in database.
+2021-02-24 08:06:57.2468 INFO Returned all vehicles by pagination from database.
+2021-02-24 08:06:57.2999 INFO Vehicles available in database.
+2021-02-24 08:14:51.1599 INFO User available in database.
+2021-02-24 08:14:55.0099 INFO Returned all vehicles by pagination from database.
+2021-02-24 08:14:55.0670 INFO Vehicles available in database.
+2021-02-24 08:17:00.1430 INFO User available in database.
+2021-02-24 08:17:03.9948 INFO Returned all vehicles by pagination from database.
+2021-02-24 08:17:04.0456 INFO Vehicles available in database.
+2021-02-24 08:20:11.0691 INFO User available in database.
+2021-02-24 08:20:14.5604 INFO Returned all vehicles by pagination from database.
+2021-02-24 08:20:14.6144 INFO Vehicles available in database.
+2021-02-24 08:22:38.4562 INFO Vehicle available in database.
+2021-02-24 08:24:34.3823 INFO Vehicle position saved in database.
+2021-02-24 08:24:49.4165 INFO User available in database.
+2021-02-24 08:24:53.6596 INFO Returned all vehicles by pagination from database.
+2021-02-24 08:24:53.7026 INFO Vehicles available in database.
+2021-02-24 08:26:52.8152 INFO User available in database.
+2021-02-24 08:28:00.8634 INFO User available in database.
+2021-02-24 08:28:04.2232 INFO Returned all vehicles by pagination from database.
+2021-02-24 08:28:04.2744 INFO Vehicles available in database.
+2021-02-24 08:42:11.0356 INFO User available in database.
+2021-02-24 08:42:14.6647 INFO Returned all vehicles by pagination from database.
+2021-02-24 08:42:14.7156 INFO Vehicles available in database.

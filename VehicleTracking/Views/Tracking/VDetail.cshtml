@@ -1,0 +1,99 @@
+﻿@model VehicleTracking.DTO.VehicleAndPosition
+@{
+    ViewData["Title"] = "VDetail";
+}
+
+<h1>Welcome Admin Detail Page</h1>
+<br />
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Vehicle.RegNum)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.VehiclePosition.Latitude)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.VehiclePosition.Longitude)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.VehiclePosition.TimeStamp)
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.PositionList)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(model => model.Vehicle.RegNum)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Latitude)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Longitude)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TimeStamp)
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<br />
+@if (Model.PositionList != null && Model.PositionList.Count > 0)
+{
+    <button id="btnMap">Draw Map</button>
+    <div id="map"></div>
+}
+<style>
+    #map {
+        height: 70%;
+    }
+</style>
+
+@section scripts{
+    <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCpX5xFqsBZXAhT3zHZmqpqacn_rI5iA5g&callback=initMap&libraries=&v=weekly"
+            async></script>
+    <script type="text/javascript">
+        var data = [];
+        @{ 
+            if(Model.PositionList!=null && Model.PositionList.Count > 0)
+            {
+                foreach(var item in Model.PositionList)
+                {
+                    <text>
+                    var obj = { "lat": parseFloat("@item.Latitude"), "lng": parseFloat("@item.Longitude") };
+                    data.push(obj);
+                    </text>
+                }
+            }
+        }
+        var obj = { "latitude": "", "longitude": "" };
+        $(document).ready(function () {
+            $('#btnMap').on('click', function () {
+                initMap();
+            });
+            console.log(data);
+        });
+        function initMap() {
+            const map = new google.maps.Map(document.getElementById("map"), {
+                zoom: 3,
+                center: { lat: 0, lng: -180 },
+                mapTypeId: "terrain",
+            });
+            const flightPath = new google.maps.Polyline({
+                path: data,
+                geodesic: true,
+                strokeColor: "#FF0000",
+                strokeOpacity: 1.0,
+                strokeWeight: 2,
+            });
+            flightPath.setMap(map);
+        }
+    </script>
+}

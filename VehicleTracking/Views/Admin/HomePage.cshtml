@@ -1,0 +1,43 @@
+﻿@model IEnumerable<VehicleTracking.DTO.VMVehicle>
+
+@{
+    ViewData["Title"] = "HomePage";
+}
+
+<h1>Welcome Admin HomePage</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Model)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.RegNum)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Id)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Model)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.RegNum)
+                </td>
+                <td>
+                    @Html.ActionLink("Details", "VDetail","Tracking", new {  id=item.Id })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

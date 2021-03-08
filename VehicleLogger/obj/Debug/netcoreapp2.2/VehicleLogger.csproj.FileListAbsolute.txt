@@ -1,0 +1,8 @@
+C:\Users\rafiqmuh\Documents\Visual Studio 2019\VehicleTracking\VehicleLogger\bin\Debug\netcoreapp2.2\VehicleLogger.deps.json
+C:\Users\rafiqmuh\Documents\Visual Studio 2019\VehicleTracking\VehicleLogger\bin\Debug\netcoreapp2.2\VehicleLogger.dll
+C:\Users\rafiqmuh\Documents\Visual Studio 2019\VehicleTracking\VehicleLogger\bin\Debug\netcoreapp2.2\VehicleLogger.pdb
+C:\Users\rafiqmuh\Documents\Visual Studio 2019\VehicleTracking\VehicleLogger\obj\Debug\netcoreapp2.2\VehicleLogger.AssemblyInfoInputs.cache
+C:\Users\rafiqmuh\Documents\Visual Studio 2019\VehicleTracking\VehicleLogger\obj\Debug\netcoreapp2.2\VehicleLogger.AssemblyInfo.cs
+C:\Users\rafiqmuh\Documents\Visual Studio 2019\VehicleTracking\VehicleLogger\obj\Debug\netcoreapp2.2\VehicleLogger.dll
+C:\Users\rafiqmuh\Documents\Visual Studio 2019\VehicleTracking\VehicleLogger\obj\Debug\netcoreapp2.2\VehicleLogger.pdb
+C:\Users\rafiqmuh\Documents\Visual Studio 2019\VehicleTracking\VehicleLogger\obj\Debug\netcoreapp2.2\VehicleLogger.csprojAssemblyReference.cache

@@ -1,0 +1,13 @@
+C:\Users\rafiqmuh\Documents\Visual Studio 2019\VehicleTracking\VehicleServices\bin\Debug\netcoreapp3.0\VehicleServices.deps.json
+C:\Users\rafiqmuh\Documents\Visual Studio 2019\VehicleTracking\VehicleServices\bin\Debug\netcoreapp3.0\VehicleServices.dll
+C:\Users\rafiqmuh\Documents\Visual Studio 2019\VehicleTracking\VehicleServices\bin\Debug\netcoreapp3.0\VehicleServices.pdb
+C:\Users\rafiqmuh\Documents\Visual Studio 2019\VehicleTracking\VehicleServices\bin\Debug\netcoreapp3.0\VehicleData.dll
+C:\Users\rafiqmuh\Documents\Visual Studio 2019\VehicleTracking\VehicleServices\bin\Debug\netcoreapp3.0\VehicleObject.dll
+C:\Users\rafiqmuh\Documents\Visual Studio 2019\VehicleTracking\VehicleServices\bin\Debug\netcoreapp3.0\VehicleData.pdb
+C:\Users\rafiqmuh\Documents\Visual Studio 2019\VehicleTracking\VehicleServices\bin\Debug\netcoreapp3.0\VehicleObject.pdb
+C:\Users\rafiqmuh\Documents\Visual Studio 2019\VehicleTracking\VehicleServices\obj\Debug\netcoreapp3.0\VehicleServices.csprojAssemblyReference.cache
+C:\Users\rafiqmuh\Documents\Visual Studio 2019\VehicleTracking\VehicleServices\obj\Debug\netcoreapp3.0\VehicleServices.AssemblyInfoInputs.cache
+C:\Users\rafiqmuh\Documents\Visual Studio 2019\VehicleTracking\VehicleServices\obj\Debug\netcoreapp3.0\VehicleServices.AssemblyInfo.cs
+C:\Users\rafiqmuh\Documents\Visual Studio 2019\VehicleTracking\VehicleServices\obj\Debug\netcoreapp3.0\VehicleServices.csproj.CopyComplete
+C:\Users\rafiqmuh\Documents\Visual Studio 2019\VehicleTracking\VehicleServices\obj\Debug\netcoreapp3.0\VehicleServices.dll
+C:\Users\rafiqmuh\Documents\Visual Studio 2019\VehicleTracking\VehicleServices\obj\Debug\netcoreapp3.0\VehicleServices.pdb
